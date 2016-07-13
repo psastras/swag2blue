@@ -1,0 +1,36 @@
+{
+  "name": "swag2blue",
+  "description": "Custom Converts Swagger into API Blueprint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psastras/swag2blue"
+  },
+  "main": "index.js",
+  "bin": {
+    "swag2blue": "./index.js"
+  },
+  "scripts": {
+    "test": "mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "keywords": [
+    "api",
+    "blueprint",
+    "swagger",
+    "convert"
+  ],
+  "author": "Paul Sastrasinh",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^0.22.1",
+    "mocha": "^2.2.5",
+    "semantic-release": "^4.3.5"
+  },
+  "dependencies": {
+    "fury": "^1.0.3",
+    "fury-apib": "^1.0.1",
+    "fury-adapter-swagger": "^0.6.2",
+    "request": "^2.57.0",
+    "yargs": "^3.10.0"
+  }
+}

@@ -27,9 +27,9 @@
     "semantic-release": "^4.3.5"
   },
   "dependencies": {
-    "fury": "^1.0.3",
+    "fury": "^2.0.0",
     "fury-apib": "^1.0.2",
-    "fury-adapter-swagger": "^0.6.2",
+    "fury-adapter-swagger": "^0.9.2",
     "request": "^2.57.0",
     "yargs": "^3.10.0"
   }

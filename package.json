@@ -22,7 +22,7 @@
   "author": "Paul Sastrasinh",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^0.22.1",
+    "eslint": "^6.6.0",
     "mocha": "^2.2.5",
     "semantic-release": "^4.3.5"
   },
